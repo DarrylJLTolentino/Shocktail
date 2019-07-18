@@ -11,22 +11,19 @@ module.exports = function (sequelize, DataTypes) {
         vodka: {
             type: DataTypes.BOOLEAN,
         },
-        gin: {
-            type: DataTypes.BOOLEAN,
-        },
         rum: {
             type: DataTypes.BOOLEAN,
         },
         tequila: {
             type: DataTypes.BOOLEAN,
         },
-        whiskey: {
+        gin: {
             type: DataTypes.BOOLEAN,
         },
         triple_sec: {
             type: DataTypes.BOOLEAN,
         },
-        jagermeister: {
+        whiskey: {
             type: DataTypes.BOOLEAN,
         },
         kahlua: {
@@ -35,33 +32,7 @@ module.exports = function (sequelize, DataTypes) {
         champagne: {
             type: DataTypes.BOOLEAN,
         },
-        //
-        
-        coffee: {
-            type: DataTypes.BOOLEAN,
-        },
-        coca_cola: {
-            type: DataTypes.BOOLEAN,
-        },
-        cream: {
-            type: DataTypes.BOOLEAN,
-        },
-        soda_water: {
-            type: DataTypes.BOOLEAN,
-        },
-        milk: {
-            type: DataTypes.BOOLEAN,
-        },
-        grenadine: {
-            type: DataTypes.BOOLEAN,
-        },
-        orange_juice: {
-            type: DataTypes.BOOLEAN,
-        },
-        cranberry_juice: {
-            type: DataTypes.BOOLEAN,
-        },
-        sugar: {
+        jagermeister: {
             type: DataTypes.BOOLEAN,
         },
         //
@@ -74,13 +45,42 @@ module.exports = function (sequelize, DataTypes) {
         lemon: {
             type: DataTypes.BOOLEAN,
         },
-        lime: {
-            type: DataTypes.BOOLEAN,
-        },
         pineapple: {
             type: DataTypes.BOOLEAN,
         },
+        lime: {
+            type: DataTypes.BOOLEAN,
+        },
         strawberries: {
+            type: DataTypes.BOOLEAN,
+        },
+        //
+        
+        cream: {
+            type: DataTypes.BOOLEAN,
+        },
+        orange_juice: {
+            type: DataTypes.BOOLEAN,
+        },
+        milk: {
+            type: DataTypes.BOOLEAN,
+        },
+        cranberry_juice: {
+            type: DataTypes.BOOLEAN,
+        },
+        soda_water: {
+            type: DataTypes.BOOLEAN,
+        },
+        coffee: {
+            type: DataTypes.BOOLEAN,
+        },
+        coca_cola: {
+            type: DataTypes.BOOLEAN,
+        },
+        sugar: {
+            type: DataTypes.BOOLEAN,
+        },
+        grenadine: {
             type: DataTypes.BOOLEAN,
         }
     });
@@ -88,7 +88,8 @@ module.exports = function (sequelize, DataTypes) {
     Pref.associate = function (models) {
         Pref.belongsTo(models.User, {
             foreignKey: {
-                allowNull: false
+                allowNull: false,
+                references: { model: "users", key: "userId" } 
             }
         });
     };

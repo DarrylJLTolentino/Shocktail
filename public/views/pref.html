@@ -38,7 +38,7 @@
 </head>
 
 <body>
-   
+
 
 
     <!-- <div id="modal1" class="modal modal-fixed-footer">
@@ -63,22 +63,22 @@
     </div> -->
 
     <!-- Modal Trigger -->
-  <!-- <a id="modal1" class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+    <!-- <a id="modal1" class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
 
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Age Verification</h4>
-      <p>By clicking enter, I certify that I am over the age of 21 and will comply with the above statement.
-    </p>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Age Verification</h4>
+            <p>By clicking enter, I certify that I am over the age of 21 and will comply with the above statement.
+            </p>
+        </div>
+        <div class="modal-footer">
+
+            <a href="#" class="btn btn-alpha modal-close waves-effect waves-green btn-flat" id="agree">Agree</a>
+            <a href="#" class="btn btn-beta modal-close waves-effect waves-green btn-flat" id="disagree">Disagree</a>
+        </div>
     </div>
-    <div class="modal-footer"> 
-     
-      <a href="#" class="btn btn-alpha modal-close waves-effect waves-green btn-flat" id="agree">Agree</a>
-      <a href="#" class="btn btn-beta modal-close waves-effect waves-green btn-flat" id="disagree">Disagree</a>
-    </div>
-  </div>
-          
+
 
     <div class="row">
         <div class="col s12 m12">
@@ -204,47 +204,51 @@
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="0">Vodka</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="vodka">Vodka</a>
                                 </div>
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="1">Rum</a>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="2">Tequila</a>
-                                </div>
-                                <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="3">Gin</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="rum">Rum</a>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="4">Triple
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="tequila">Tequila</a>
+                                </div>
+                                <div class="col s6">
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="gin">Gin</a>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s6">
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="triple_sec">Triple
                                         Sec</a>
                                 </div>
                                 <div class="col s6">
 
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="5">Whiskey</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="whiskey">Whiskey</a>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="6">Kahlua</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="kahlua">Kahlua</a>
                                 </div>
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0"
-                                        data-id="7">Champagne</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="champagne">Champagne</a>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0"
-                                        data-id="8">Jagermeister</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="jagermeister">Jagermeister</a>
                                 </div>
                                 <div class="col s6">
                                 </div>
@@ -271,31 +275,33 @@
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="9">Orange</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="orange">Orange</a>
                                 </div>
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="10">Banana</a>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="11">Lemon</a>
-                                </div>
-                                <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0"
-                                        data-id="12">Pineapple</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="banana">Banana</a>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="13">Lime</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="lemon">Lemon</a>
+                                </div>
+                                <div class="col s6">
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="pineapple">Pineapple</a>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s6">
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="lime">Lime</a>
 
                                 </div>
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0"
-                                        data-id="14">Strawberry</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="strawberry">Strawberry</a>
                                 </div>
                             </div>
 
@@ -322,52 +328,55 @@
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="15">Cream</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="cream">Cream</a>
                                 </div>
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="16">Orange
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="orange_juice">Orange
                                         Juice</a>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="milk">Milk</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="milk">Milk</a>
                                 </div>
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="17">Cranberry
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="cranberry_juice">Cranberry
                                         Juice</a>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="18">Soda
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="soda_water">Soda
                                         Water</a>
 
                                 </div>
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="19"> Coffee
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="coffee">Coffee
                                     </a>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="20">
+                                    <a class="waves-effect waves-light btn-small" data-bool="false" id="coca-cola">
                                         Coca-Cola</a>
 
                                 </div>
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0" data-id="21">Sugar
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="sugar_syrup">Sugar
                                         Syrup</a>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col s6">
-                                    <a class="waves-effect waves-light btn-small" data-bool="0"
-                                        data-id="22">Grenadine</a>
+                                    <a class="waves-effect waves-light btn-small" data-bool="false"
+                                        id="grenadine">Grenadine</a>
 
                                 </div>
                                 <div class="col s6">
@@ -396,22 +405,10 @@
 
 
     </div>
-    <a href = "/main" class="btn waves-effect waves-light" type="submit" id="submit" name="action">Submit
+    <a href="/main" class="btn waves-effect waves-light" type="submit" id="submit" name="action">Submit
         <i class="material-icons right">send</i>
     </a>
 
-    <script type="text/javascript" src="../assets/javascript/auth.js"></script>
-     <!-- random pick -->
-  <script>
-    // var cocktailArray = ['Vodka', 'Rum', 'Tequila', 'Gin', 'Triple Sec', 'Whiskey', 'Kahlua', 'Champagne', 'Jagermeister', 'Orange', 'Banana', 'Lemon', 'Pineapple', 'Lime', 'Strawberry', 'Cream', 'orange Juice', 'Milk', 'Cranberry Juice', 'Soda Water', 'Coffee', 'Coca-Cola', 'Sugar Syrup', 'Grenadine'];
-        var boolArray = [];
-        for (var i = 0; i < 27; i++) {
-            var currentBool = $(this).attr("data-id=" + " " + i + " ");
-            var currentPref = currentBool.attr("data-bool");
-            boolArray.push(currentPref);
-        }
-        console.log(currentPref);
-</script>
 
 </body>
 
@@ -425,10 +422,45 @@
     });
 
     $(document).on("click", "#submit", function () {
+        var username;
 
-        $.post("/api/pref", function(req, res) {
-            
-        })
+        $.get("/api/users/:id", {
+            where: {
+                id: req.params.id
+            }
+        }, function (data) {
+            username = data.username;
+        });
+
+        $.post("/api/pref", {
+            vodka: $("#vodka").attr("data-bool"),
+            rum: $("#rum").attr("data-bool"),
+            tequila: $("#tequila").attr("data-bool"),
+            gin: $("#gin").attr("data-bool"),
+            triple_sec: $("#triple_sec").attr("data-bool"),
+            whiskey: $("#whiskey").attr("data-bool"),
+            kahlua: $("#kahlua").attr("data-bool"),
+            champagne: $("#champagne").attr("data-bool"),
+            jagermeister: $("#jagermeister").attr("data-bool"),
+            orange: $("#orange").attr("data-bool"),
+            banana: $("#banana").attr("data-bool"),
+            lemon: $("#lemon").attr("data-bool"),
+            pineapple: $("#pineapple").attr("data-bool"),
+            lime: $("#lime").attr("data-bool"),
+            strawberries: $("#strawberries").attr("data-bool"),
+            cream: $("#cream").attr("data-bool"),
+            orange_juice: $("#orange_juice").attr("data-bool"),
+            milk: $("#milk").attr("data-bool"),
+            cranberry_juice: $("#cranberry_juice").attr("data-bool"),
+            soda_water: $("#soda_water").attr("data-bool"),
+            coffee: $("#coffee").attr("data-bool"),
+            coca_cola: $("#coca-cola").attr("data-bool"),
+            sugar: $("#sugar").attr("data-bool"),
+            grenadine: $("#grenadine").attr("data-bool")
+
+        }).then(function (data, status) {
+            alert("Data: " + data + "\nStatus: " + status);
+        });
 
         window.location = "/main";
     })
@@ -459,11 +491,11 @@
     $(document).on("click", "#disagree", function () {
         alert(
             "You should be at least 21 to enter.",
-            
-            
+
+
         )
         $('.modal').modal('open');
-        
+
     })
 
 
