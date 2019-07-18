@@ -565,3 +565,12 @@ Shocktail is a great way to learn of drink recipes from the comforts of home and
 | Versioning | Reference |
 | --------------- | --------- |
 | Github | https://github.com/ |
+
+######
+
+| Author | Github Repository |
+| --------------- | --------- |
+| Minal Kharche | https://github.com/minalk24 |
+| Darryl Tolentino | https://github.com/DarrylJLTolentino |  
+| Kristina Alekseeva | https://github.com/javascriptkitty | 
+| Raghav Shiv | https://github.com/rshiv7 | 
