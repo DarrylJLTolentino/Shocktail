@@ -543,6 +543,15 @@ $(onReady);
 ```
 Shocktail is a great way to learn of drink recipes from the comforts of home and hope that users will enjoy it!
 
+### Learning points
+1. Creating a full stack web application.
+2. Learning how the server and client interact with requests and responses.
+3. How to create a server and how it starts listening for the clients' requests on a particular port.
+4. Various types of ajax client requests i.e post,get,put,delete to database server
+5. Sending various types of responses to clients including serving an html page or sending back data as json object.
+6. How to query on database using a req.body or req.params
+7. Deploying application on heroku.
+
 ######
 
 | Technology Used | Reference |
