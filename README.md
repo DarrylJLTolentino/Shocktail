@@ -573,4 +573,13 @@ Shocktail is a great way to learn of drink recipes from the comforts of home and
 | Minal Kharche | https://github.com/minalk24 |
 | Darryl Tolentino | https://github.com/DarrylJLTolentino |  
 | Kristina Alekseeva | https://github.com/javascriptkitty | 
-| Raghav Shiv | https://github.com/rshiv7 | 
+| Raghav Shiv | https://github.com/rshiv7 |
+
+######
+
+Acknowledgements
+
+- Sajeel Malik: TA that helped cultivate our direction of our project and helped with syntax
+- Jacob Moore: TA that helped cultivate our direction of our project and helped with syntax
+- Khaled A Karmen: TA that helped with syntax and direction of database
+- Amber Burroughs: For suggestions with logo design and for direction of project
